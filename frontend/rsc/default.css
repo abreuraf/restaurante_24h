@@ -1,0 +1,136 @@
+body {
+	overflow-x: hidden;
+}
+
+header {
+	color: #fff;
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	background-color: #000;
+	box-sizing: border-box;
+	padding: 2em 0;
+}
+
+footer {
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+}
+
+.logo {
+	margin-bottom: 50px;
+}
+
+.left, .right {
+	line-height: 60px;
+}
+.right {
+	text-align: right;
+}
+
+h1 > span, h2 > span {
+	font-family: 'Alex Brush';
+	font-weight: bold;
+	color: #f60000;
+}
+
+p {
+	font-size: 15px;
+}
+
+.menu {
+	text-transform: uppercase;
+	box-sizing: border-box;
+	font-size: 16px;
+	text-align: center;
+}
+.menu ul {
+	line-height: 24px;
+}
+.menu li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.item {
+	width: 100%;
+	height: 100px;
+	line-height: 24px;	
+	margin-top: 5em;
+}
+
+.item .pull-left {
+	float: left;
+	margin-right: 15px;
+}
+.item .pull-right {
+	float: right;
+}
+.itemr {
+	margin-left: 30px;
+}
+.item .content {
+	padding-top: 10px;
+}
+
+form {
+	margin: 30px;
+}
+
+form .send-request {
+	background-color: #f60000;
+	color: #fff;
+}
+
+label {
+	color: #f60000;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+.lado-direito h2 > span {
+	color: #fff !important;
+}
+.lado-direito h2, .lado-direito h4 {
+	color: #000;
+}
+.lado-direito div {
+	margin-top: 30px;
+}
+.lado-direito {
+	background-color: #f60000;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.lado-esquerdo h2 {
+	color: #fff;
+}
+
+#informacoes {
+	margin: 50px 0;
+	padding: 10px;
+	background-color: #f60000;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.bg_img2 {
+	background: url('img/bg_img2.jpg');
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('fonts/AlexBrush-Regular.eot');
+    src: url('fonts/AlexBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AlexBrush-Regular.woff2') format('woff2'),
+        url('fonts/AlexBrush-Regular.woff') format('woff'),
+        url('fonts/AlexBrush-Regular.svg#AlexBrush-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
