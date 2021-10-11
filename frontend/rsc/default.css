@@ -1,10 +1,10 @@
 body {
 	overflow-x: hidden;
+	font-family: "Lato", sans-serif !important;
 }
 
 header {
 	color: #fff;
-	font-family: Lato, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	background-color: #000;
@@ -13,31 +13,44 @@ header {
 }
 
 footer {
-	text-align: center;
 	padding: 3em 0;
+	background: url('img/footer_bg1.jpg') no-repeat top right;
 }
 footer li {
 	display: inline-block;
 }
+
 .social-media {
-	margin-top: 2em;
+	padding: 2em 0;
+}
+.social-media a {
+	margin: 0 1em;
 }
 
 .logo {
-	margin-bottom: 50px;
-}
-
-.left, .right {
-	line-height: 60px;
-}
-.right {
-	text-align: right;
+	margin-bottom: 30px;
 }
 
 .menu a {
-	color: #f60000;
+	color: #fff;
+	line-height: 24px;
+	margin: 0 20px;
+	padding: 15px;
+}
+.menu a:active, .menu a:hover, .menu a:link {
+	text-decoration: none;
 }
 
+.menu a:hover, .menu a:active {
+	color: #f60000;
+	border-bottom: 1px solid #f60000;
+}
+
+.menu li {
+	box-sizing: border-box;
+	font-weight: normal;
+	line-height: 24px;
+}
 h1 > span, h2 > span {
 	font-family: 'Alex Brush';
 	font-weight: bold;
@@ -75,51 +88,61 @@ p {
 .item .pull-right {
 	float: right;
 }
-.itemr {
-	margin-left: 30px;
-}
+
 .item .content {
 	padding-top: 10px;
 }
 
-form {
+.form {
 	margin: 30px;
+	font-size: 18px;
+	text-align: right;
+
 }
-form .send-request {
+.send-request {
+	background-color: #f60000;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+	padding: 12px 24px;
+	border-radius: 4px;
+	
+}
+
+.form-group {
+	margin: 2em 0;
+}
+
+.lado-esquerdo {
+	background-color: #fff;
+}
+.lado-direito {
 	background-color: #f60000;
 	color: #fff;
 }
-
-label {
-	color: #f60000;
+.lado-direito div {
+	margin-top: 36px;
 }
-
-.form {
-	padding: 1em 10em;
+.lado-esquerdo h2 {
+	background-color: #fff;
 }
-.form-group {
-	margin-bottom: 20px;
+.lado-esquerdo {
+	border-color: #000;
 }
-
 .lado-direito h2 > span {
 	color: #fff !important;
 }
 .lado-direito h2, .lado-direito h4 {
 	color: #000;
 }
-.lado-direito div {
-	margin-top: 30px;
-}
 .lado-esquerdo, .lado-direito {
-	padding: 2em 0;
-}
-.lado-direito {
-	background-color: #f60000;
-	color: #fff;
+	padding: 10px;
 	margin: 20px 0;
 }
-.lado-esquerdo h2 {
-	color: #fff;
+
+
+.single-img {
+	margin: 2em 0;
 }
 
 #informacoes {
@@ -144,4 +167,16 @@ label {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+		background: none;
+	}
 }
